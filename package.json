@@ -10,9 +10,13 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "*"
+    "node": "0.10.11",
+    "npm" : "1.2.30"
   },
   "devDependencies": {
     "jasmine-node" : "1.0.x"
+  },
+  "dependencies" : {
+    "opentok" : "0.3.x"
   }
 }
